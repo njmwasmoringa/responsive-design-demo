@@ -1,0 +1,85 @@
+header{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+header .access-main-nav{
+    display: none;
+    float: right;
+}
+
+header .logo-and-name{
+    font-size: 24px;
+}
+
+header .logo-and-name img{
+    width: 32px;
+}
+
+header .main-nav{
+    float: right;
+    margin-top: -20px;
+}
+
+header .main-nav a{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(189, 231, 3);
+    color:black;
+    text-decoration: none;
+}
+
+.hero-image{
+    background-image: url("../images/beach-1236581_640.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 300px;
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-image a{
+    padding: 10px;
+    font-size: 24px;
+    background-color: rgb(189, 231, 3);
+    text-decoration: none;
+}
+
+.our-favorites{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.our-favorites li{
+    padding: 5px;
+}
+
+.our-favorites img{
+    width:100%;
+}
+
+@media screen and (max-width: 640px) {
+    header .main-nav{
+        display: none;
+    }
+
+    header .access-main-nav{
+        display: block;
+    }
+
+    header .access-main-nav{
+        
+    }
+
+    .our-favorites{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
